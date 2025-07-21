@@ -1,0 +1,34 @@
+name: Feature Request
+description: Got a cool idea? Let’s build it!
+title: "[Feature]: "
+labels:
+  - feature
+  - triage
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What’s your idea?
+      description: Give us the elevator pitch!
+      placeholder: |
+        > e.g., Add dark mode support so our eyes can chill
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this feature awesome?
+      description: Tell us why this feature would be useful.
+      placeholder: |
+        > e.g., Make users happy, impress our moms, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: When will it be perfect?
+      description: What does “done” look like?
+      placeholder: |
+        > e.g., Feature is in settings, works everywhere, everyone’s smiling
+    validations:
+      required: true
