@@ -1,0 +1,43 @@
+name: Feature Request
+description: Heb je een nieuwe feature in gedachten? Laten we hem bouwen!
+title: "[Feature]: "
+labels:
+  - feature
+  - triage
+body:
+  - type: input
+    id: story
+    attributes:
+      label: User Story
+      description: Als gebruiker wil ik een feature omdat...
+      placeholder: |
+        > Als Pietje wil ik een extra knop voor meer korting, zodat ik de klant blij kan maken met meer korting.
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Wat is je idee?
+      description: Geef ons de korte uitleg!
+      placeholder: |
+        > Bijvoorbeeld, voeg een extra knop toe voor meer korting.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Waarom is deze feature nodig?
+      description: Vertel ons waarom deze feature nuttig zou zijn.
+      placeholder: |
+        > Bijvoorbeeld, het zou gebruikers gelukkig maken
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Wat zijn de acceptatiecriteria?
+      description: Wanneer is de feature klaar?
+      placeholder: |
+        > Bijvoorbeeld, de feature is in de instellingen, werkt overal.
+    validations:
+      required: true

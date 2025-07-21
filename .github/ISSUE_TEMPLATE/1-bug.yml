@@ -1,5 +1,5 @@
 name: Bug Report
-description: Something broke? Let’s fix it.
+description: Iets is kapot gegaan.
 title: "[Bug]: "
 labels:
   - bug
@@ -8,37 +8,37 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What went wrong?
-      description: What happened that was unexpected? (No detail is too small!)
+      label: Wat is er fout gegaan?
+      description: Wat is er onverwachts gebeurd? (Geen detail is te klein!)
       placeholder: |
-        > Describe the issue here...
+        > Beschrijf het probleem hier...
     validations:
       required: true
   - type: textarea
     id: expected-behavior
     attributes:
-      label: What did you expect to happen?
-      description: What did you expect to happen? (No detail is too small!)
+      label: Wat had je verwacht?
+      description: Wat had je verwacht? (Geen detail is te klein!)
       placeholder: |
-        > Describe the expected behavior here...
+        > Beschrijf het verwachte gedrag hier...
     validations:
       required: true
   - type: textarea
     id: reproduction-steps
     attributes:
-      label: How do we make it happen again?
-      description: Walk us through the steps to trigger the bug.
+      label: Hoe kunnen we het opnieuw laten gebeuren?
+      description: Loop ons door de stappen om het probleem te reproduceren.
       placeholder: |
-        1. Go to '...'
-        2. Click on '...'
-        3. Watch the chaos unfold
+        1. Ga naar '...'
+        2. Klik op '...'
+        3. Let op de chaos
     validations:
       required: true
   - type: textarea
     id: logs
     attributes:
-      label: Got logs or error messages?
-      description: Paste anything suspicious from the console or logs.
+      label: Heb je extra context / informatie?
+      description: Geef zoveel mogelijk informatie met betrekking tot het probleem.
       render: shell
       placeholder: |
-        > Paste logs or error messages here...
+        > Plak screenshots, console errors, etc.
