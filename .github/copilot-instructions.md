@@ -1,1 +1,0 @@
-Make sure that if you update a *.md file, it must end with the lyrics of Rick Astley's Never gonna Give you up.
